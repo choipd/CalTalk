@@ -29,6 +29,12 @@
 		284EBC5316C28BD30011635C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284EBC2016C28BD30011635C /* Foundation.framework */; };
 		284EBC5B16C28BD30011635C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 284EBC5916C28BD30011635C /* InfoPlist.strings */; };
 		284EBC5E16C28BD30011635C /* CalvaryTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EBC5D16C28BD30011635C /* CalvaryTalkTests.m */; };
+		28D6361216C296400024F4F2 /* CSSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6361116C296400024F4F2 /* CSSignUpViewController.m */; };
+		28D6361A16C29E4A0024F4F2 /* baas.io.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D6361916C29E4A0024F4F2 /* baas.io.framework */; };
+		28D6361C16C29E5C0024F4F2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D6361B16C29E5C0024F4F2 /* MobileCoreServices.framework */; };
+		28D6361E16C29E670024F4F2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D6361D16C29E670024F4F2 /* SystemConfiguration.framework */; };
+		28D6362116C2B9C00024F4F2 /* CSMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6362016C2B9C00024F4F2 /* CSMainTabBarController.m */; };
+		28D6362416C33A620024F4F2 /* CSRoomListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6362316C33A620024F4F2 /* CSRoomListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,14 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		284EBC1B16C28BD30011635C /* CalvaryTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalvaryTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		284EBC1B16C28BD30011635C /* CalTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		284EBC1E16C28BD30011635C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		284EBC2016C28BD30011635C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		284EBC2216C28BD30011635C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		284EBC2616C28BD30011635C /* CalvaryTalk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalvaryTalk-Info.plist"; sourceTree = "<group>"; };
+		284EBC2616C28BD30011635C /* CalTalk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalTalk-Info.plist"; sourceTree = "<group>"; };
 		284EBC2816C28BD30011635C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		284EBC2A16C28BD30011635C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		284EBC2C16C28BD30011635C /* CalvaryTalk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalvaryTalk-Prefix.pch"; sourceTree = "<group>"; };
+		284EBC2C16C28BD30011635C /* CalTalk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalTalk-Prefix.pch"; sourceTree = "<group>"; };
 		284EBC2D16C28BD30011635C /* CSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSAppDelegate.h; sourceTree = "<group>"; };
 		284EBC2E16C28BD30011635C /* CSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegate.m; sourceTree = "<group>"; };
 		284EBC3016C28BD30011635C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -65,12 +71,21 @@
 		284EBC4416C28BD30011635C /* CSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSSecondViewController.m; sourceTree = "<group>"; };
 		284EBC4616C28BD30011635C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		284EBC4816C28BD30011635C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		284EBC4F16C28BD30011635C /* CalvaryTalkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalvaryTalkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		284EBC4F16C28BD30011635C /* CalTalkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalTalkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		284EBC5016C28BD30011635C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		284EBC5816C28BD30011635C /* CalvaryTalkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalvaryTalkTests-Info.plist"; sourceTree = "<group>"; };
+		284EBC5816C28BD30011635C /* CalTalkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalTalkTests-Info.plist"; sourceTree = "<group>"; };
 		284EBC5A16C28BD30011635C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		284EBC5C16C28BD30011635C /* CalvaryTalkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalvaryTalkTests.h; sourceTree = "<group>"; };
 		284EBC5D16C28BD30011635C /* CalvaryTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalvaryTalkTests.m; sourceTree = "<group>"; };
+		28D6361016C296400024F4F2 /* CSSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSignUpViewController.h; sourceTree = "<group>"; };
+		28D6361116C296400024F4F2 /* CSSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSignUpViewController.m; sourceTree = "<group>"; };
+		28D6361916C29E4A0024F4F2 /* baas.io.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = baas.io.framework; path = "../baas.io-sdk-ios/baas.io.framework"; sourceTree = "<group>"; };
+		28D6361B16C29E5C0024F4F2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		28D6361D16C29E670024F4F2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		28D6361F16C2B9C00024F4F2 /* CSMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMainTabBarController.h; sourceTree = "<group>"; };
+		28D6362016C2B9C00024F4F2 /* CSMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMainTabBarController.m; sourceTree = "<group>"; };
+		28D6362216C33A620024F4F2 /* CSRoomListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRoomListViewController.h; sourceTree = "<group>"; };
+		28D6362316C33A620024F4F2 /* CSRoomListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRoomListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D6361E16C29E670024F4F2 /* SystemConfiguration.framework in Frameworks */,
+				28D6361C16C29E5C0024F4F2 /* MobileCoreServices.framework in Frameworks */,
+				28D6361A16C29E4A0024F4F2 /* baas.io.framework in Frameworks */,
 				284EBC1F16C28BD30011635C /* UIKit.framework in Frameworks */,
 				284EBC2116C28BD30011635C /* Foundation.framework in Frameworks */,
 				284EBC2316C28BD30011635C /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +118,9 @@
 		284EBC1216C28BD30011635C = {
 			isa = PBXGroup;
 			children = (
+				28D6361D16C29E670024F4F2 /* SystemConfiguration.framework */,
+				28D6361B16C29E5C0024F4F2 /* MobileCoreServices.framework */,
+				28D6361916C29E4A0024F4F2 /* baas.io.framework */,
 				284EBC2416C28BD30011635C /* CalvaryTalk */,
 				284EBC5616C28BD30011635C /* CalvaryTalkTests */,
 				284EBC1D16C28BD30011635C /* Frameworks */,
@@ -110,8 +131,8 @@
 		284EBC1C16C28BD30011635C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				284EBC1B16C28BD30011635C /* CalvaryTalk.app */,
-				284EBC4F16C28BD30011635C /* CalvaryTalkTests.octest */,
+				284EBC1B16C28BD30011635C /* CalTalk.app */,
+				284EBC4F16C28BD30011635C /* CalTalkTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,6 +164,12 @@
 				284EBC4616C28BD30011635C /* second.png */,
 				284EBC4816C28BD30011635C /* second@2x.png */,
 				284EBC2516C28BD30011635C /* Supporting Files */,
+				28D6361016C296400024F4F2 /* CSSignUpViewController.h */,
+				28D6361116C296400024F4F2 /* CSSignUpViewController.m */,
+				28D6361F16C2B9C00024F4F2 /* CSMainTabBarController.h */,
+				28D6362016C2B9C00024F4F2 /* CSMainTabBarController.m */,
+				28D6362216C33A620024F4F2 /* CSRoomListViewController.h */,
+				28D6362316C33A620024F4F2 /* CSRoomListViewController.m */,
 			);
 			path = CalvaryTalk;
 			sourceTree = "<group>";
@@ -150,10 +177,10 @@
 		284EBC2516C28BD30011635C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				284EBC2616C28BD30011635C /* CalvaryTalk-Info.plist */,
+				284EBC2616C28BD30011635C /* CalTalk-Info.plist */,
 				284EBC2716C28BD30011635C /* InfoPlist.strings */,
 				284EBC2A16C28BD30011635C /* main.m */,
-				284EBC2C16C28BD30011635C /* CalvaryTalk-Prefix.pch */,
+				284EBC2C16C28BD30011635C /* CalTalk-Prefix.pch */,
 				284EBC3016C28BD30011635C /* Default.png */,
 				284EBC3216C28BD30011635C /* Default@2x.png */,
 				284EBC3416C28BD30011635C /* Default-568h@2x.png */,
@@ -174,7 +201,7 @@
 		284EBC5716C28BD30011635C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				284EBC5816C28BD30011635C /* CalvaryTalkTests-Info.plist */,
+				284EBC5816C28BD30011635C /* CalTalkTests-Info.plist */,
 				284EBC5916C28BD30011635C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -183,9 +210,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		284EBC1A16C28BD30011635C /* CalvaryTalk */ = {
+		284EBC1A16C28BD30011635C /* CalTalk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 284EBC6116C28BD30011635C /* Build configuration list for PBXNativeTarget "CalvaryTalk" */;
+			buildConfigurationList = 284EBC6116C28BD30011635C /* Build configuration list for PBXNativeTarget "CalTalk" */;
 			buildPhases = (
 				284EBC1716C28BD30011635C /* Sources */,
 				284EBC1816C28BD30011635C /* Frameworks */,
@@ -195,14 +222,14 @@
 			);
 			dependencies = (
 			);
-			name = CalvaryTalk;
+			name = CalTalk;
 			productName = CalvaryTalk;
-			productReference = 284EBC1B16C28BD30011635C /* CalvaryTalk.app */;
+			productReference = 284EBC1B16C28BD30011635C /* CalTalk.app */;
 			productType = "com.apple.product-type.application";
 		};
-		284EBC4E16C28BD30011635C /* CalvaryTalkTests */ = {
+		284EBC4E16C28BD30011635C /* CalTalkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 284EBC6416C28BD30011635C /* Build configuration list for PBXNativeTarget "CalvaryTalkTests" */;
+			buildConfigurationList = 284EBC6416C28BD30011635C /* Build configuration list for PBXNativeTarget "CalTalkTests" */;
 			buildPhases = (
 				284EBC4A16C28BD30011635C /* Sources */,
 				284EBC4B16C28BD30011635C /* Frameworks */,
@@ -214,9 +241,9 @@
 			dependencies = (
 				284EBC5516C28BD30011635C /* PBXTargetDependency */,
 			);
-			name = CalvaryTalkTests;
+			name = CalTalkTests;
 			productName = CalvaryTalkTests;
-			productReference = 284EBC4F16C28BD30011635C /* CalvaryTalkTests.octest */;
+			productReference = 284EBC4F16C28BD30011635C /* CalTalkTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +256,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Choipd Studios";
 			};
-			buildConfigurationList = 284EBC1616C28BD30011635C /* Build configuration list for PBXProject "CalvaryTalk" */;
+			buildConfigurationList = 284EBC1616C28BD30011635C /* Build configuration list for PBXProject "CalTalk" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -241,8 +268,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				284EBC1A16C28BD30011635C /* CalvaryTalk */,
-				284EBC4E16C28BD30011635C /* CalvaryTalkTests */,
+				284EBC1A16C28BD30011635C /* CalTalk */,
+				284EBC4E16C28BD30011635C /* CalTalkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -300,6 +327,9 @@
 				284EBC2F16C28BD30011635C /* CSAppDelegate.m in Sources */,
 				284EBC3E16C28BD30011635C /* CSFirstViewController.m in Sources */,
 				284EBC4516C28BD30011635C /* CSSecondViewController.m in Sources */,
+				28D6361216C296400024F4F2 /* CSSignUpViewController.m in Sources */,
+				28D6362116C2B9C00024F4F2 /* CSMainTabBarController.m in Sources */,
+				28D6362416C33A620024F4F2 /* CSRoomListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +346,7 @@
 /* Begin PBXTargetDependency section */
 		284EBC5516C28BD30011635C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 284EBC1A16C28BD30011635C /* CalvaryTalk */;
+			target = 284EBC1A16C28BD30011635C /* CalTalk */;
 			targetProxy = 284EBC5416C28BD30011635C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -369,7 +399,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Myungjin Choi (EZ86T33K4S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Myungjin Choi (EZ86T33K4S)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -384,6 +415,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "0B7036AD-7EF2-44F9-B797-4A6A08978E09";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -401,7 +433,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Myungjin Choi (EZ86T33K4S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Myungjin Choi (EZ86T33K4S)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -409,6 +442,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "0B7036AD-7EF2-44F9-B797-4A6A08978E09";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -418,10 +452,19 @@
 		284EBC6216C28BD30011635C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../baas.io-sdk-ios\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CalvaryTalk/CalvaryTalk-Prefix.pch";
-				INFOPLIST_FILE = "CalvaryTalk/CalvaryTalk-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "CalvaryTalk/CalTalk-Prefix.pch";
+				INFOPLIST_FILE = "CalvaryTalk/CalTalk-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = CalTalk;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -429,10 +472,19 @@
 		284EBC6316C28BD30011635C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../baas.io-sdk-ios\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CalvaryTalk/CalvaryTalk-Prefix.pch";
-				INFOPLIST_FILE = "CalvaryTalk/CalvaryTalk-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "CalvaryTalk/CalTalk-Prefix.pch";
+				INFOPLIST_FILE = "CalvaryTalk/CalTalk-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = CalTalk;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -447,8 +499,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CalvaryTalk/CalvaryTalk-Prefix.pch";
-				INFOPLIST_FILE = "CalvaryTalkTests/CalvaryTalkTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "CalvaryTalkTests/CalTalkTests-Info.plist";
+				PRODUCT_NAME = CalTalkTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -464,8 +516,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CalvaryTalk/CalvaryTalk-Prefix.pch";
-				INFOPLIST_FILE = "CalvaryTalkTests/CalvaryTalkTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "CalvaryTalkTests/CalTalkTests-Info.plist";
+				PRODUCT_NAME = CalTalkTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -474,7 +526,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		284EBC1616C28BD30011635C /* Build configuration list for PBXProject "CalvaryTalk" */ = {
+		284EBC1616C28BD30011635C /* Build configuration list for PBXProject "CalTalk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				284EBC5F16C28BD30011635C /* Debug */,
@@ -483,21 +535,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		284EBC6116C28BD30011635C /* Build configuration list for PBXNativeTarget "CalvaryTalk" */ = {
+		284EBC6116C28BD30011635C /* Build configuration list for PBXNativeTarget "CalTalk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				284EBC6216C28BD30011635C /* Debug */,
 				284EBC6316C28BD30011635C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		284EBC6416C28BD30011635C /* Build configuration list for PBXNativeTarget "CalvaryTalkTests" */ = {
+		284EBC6416C28BD30011635C /* Build configuration list for PBXNativeTarget "CalTalkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				284EBC6516C28BD30011635C /* Debug */,
 				284EBC6616C28BD30011635C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
